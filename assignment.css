@@ -1,3 +1,4 @@
+
 .navber {
   display: flex;
   justify-content: space-between;
@@ -6,6 +7,9 @@
   margin: 10px 200px;
 }
 
+body {
+  overflow-x: hidden;
+}
 .text .warp {
   color: #8987A1;
 }
@@ -212,5 +216,39 @@
   .plant{
     text-align: center;
     margin: auto;
+  }
+
+  .sticker-container {
+    display: none;
+  }
+
+ .flower {
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  margin: 20px auto;
+  padding: 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+ .image-container {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+  .flower-image {
+  width: 50%;
+  height: auto;
+  max-width: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+
+  .text-container {
+    width: 100%;
+    padding: 20px;
   }
 }
