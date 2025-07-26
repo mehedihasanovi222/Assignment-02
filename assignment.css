@@ -1,0 +1,46 @@
+.navber {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;             
+    padding: 10px 20px; 
+    margin: 10px 200px; 
+
+}
+
+.text{
+    color: #8987A1;
+}
+.nev-text{
+    color: black;
+}
+.orange{
+
+    color: #E95A08;
+}
+
+.size {
+    font-size: 50px;     
+    font-weight: 900;   
+}
+
+.image img {
+    height: 50px; 
+}
+
+.control a {
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+
+.banner-image{
+    width: 570px;
+    height: 355px;
+}
